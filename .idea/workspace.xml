@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c292697-5ce5-4538-9af1-648511c0370d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/graphs_threeD.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/klein_bottle_threeD.py" afterDir="false" />
+    <list default="true" id="2c292697-5ce5-4538-9af1-648511c0370d" name="Changes" comment="graph plot is done">
+      <change afterPath="$PROJECT_DIR$/detailed_graph_plotter/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detailed_graph_plotter/py/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detailed_graph_plotter/py/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detailed_graph_plotter/py/barnsley_fern.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detailed_graph_plotter/py/graph_plotter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detailed_graph_plotter/py/polar_curve_threeD.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detailed_graph_plotter/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/general_graph_threeD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,11 +30,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dgupta-2005&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dgupta-2005/python-graphs&quot;,
+    &quot;accountId&quot;: &quot;3b6cde70-ee51-4bd7-ab36-520cec9274dc&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="330uMV8T7ILH7HECzgePB4uMtxs" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,12 +59,22 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python.app.executor": "Run",
+    "Python.barnsley_fern.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "settings.qodana"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\math_plots\graphs_threeD\detailed_graph_plotter\py" />
+      <recent name="D:\math_plots\graphs_threeD\detailed_graph_plotter" />
+      <recent name="D:\math_plots\graphs_threeD" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -60,6 +91,59 @@
       <option name="presentableId" value="Default" />
       <updated>1758466263212</updated>
     </task>
+    <task id="LOCAL-00001" summary="graph plot is done">
+      <option name="closed" value="true" />
+      <created>1758466686380</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758466686380</updated>
+    </task>
+    <task id="LOCAL-00002" summary="graph plot is done">
+      <option name="closed" value="true" />
+      <created>1758466705621</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1758466705621</updated>
+    </task>
+    <task id="LOCAL-00003" summary="graph plot is done">
+      <option name="closed" value="true" />
+      <created>1758466860518</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1758466860518</updated>
+    </task>
+    <task id="LOCAL-00004" summary="graph plot is done">
+      <option name="closed" value="true" />
+      <created>1758467307351</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1758467307351</updated>
+    </task>
+    <task id="LOCAL-00005" summary="graph plot is done">
+      <option name="closed" value="true" />
+      <created>1758467319237</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1758467319237</updated>
+    </task>
+    <task id="LOCAL-00006" summary="graph plot is done">
+      <option name="closed" value="true" />
+      <created>1758467325169</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1758467325169</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="graph plot is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="graph plot is done" />
   </component>
 </project>
