@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import plotly.io as pio
-from graph_plotter import GraphPlotter
+from parametric_graph_plotter import GraphPlotter
 from polar_curve_threeD import PolarPlotter
 
 # Set the Plotly renderer for Streamlit
